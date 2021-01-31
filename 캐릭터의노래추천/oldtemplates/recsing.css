@@ -1,0 +1,195 @@
+/* index */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+header {
+  font-size: 85px;
+  font-weight: 600;
+  animation-name: hello;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes hello {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+nav {
+  animation-name: button;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+
+  opacity: 0;
+}
+@keyframes button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.click {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+}
+.click:hover {
+  font-size: 26px;
+  font-weight: 600;
+}
+/* .click:active {
+} */
+
+/* whatsinger */
+
+.back-container {
+  text-align: initial;
+  padding: 15px;
+  /* position: fixed;
+  left: 160px;
+  top: 50px; */
+}
+.back {
+  text-decoration: none;
+  color: #2793f8;
+  font-size: 24px;
+  font-weight: 600;
+}
+.back:hover {
+  font-size: 26px;
+}
+.intro-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.intro {
+}
+.singer-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+}
+
+.singer {
+  display: block;
+  text-decoration: none;
+  color: Black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px;
+  float: ;
+}
+.singer:hover {
+  font-size: 32px;
+  font-weight: 600;
+}
+/* wildson */
+
+.subject {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.audio-container,
+.music {
+  margin-top: 12px;
+}
+.care {
+  margin-top: 12px;
+  font-size: 14px;
+  color: rgb(224, 119, 119);
+  font-weight: 600;
+}
+
+.ment-container {
+  text-align: left;
+  margin-top: 30px;
+}
+.ment {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+}
+.video-container {
+  margin-top: 30px;
+}
+.video-intro {
+  font-size: 25px;
+  color: rgb(146, 145, 145);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+footer {
+  margin-top: 20px;
+  background-color: ;
+}
+.contact {
+  margin: 45px 0 35px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.data {
+  margin: 0 auto;
+  width: 90%;
+}
+label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+.name,
+.email,
+.message {
+  width: 100%;
+  background-color: white;
+  display: block;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 3px 10px;
+  margin: 8px 0 25px 0;
+}
+.email {
+  display: block;
+}
+.message-container {
+}
+.message {
+  appearance: none;
+  height: initial;
+}
+.send-container {
+  text-align: initial;
+}
+.send {
+  border-radius: 4px;
+  border: 0;
+  font-weight: 600;
+  height: 40px;
+  padding: 10px;
+}
+.send:hover {
+  font-size: 2px;
+}

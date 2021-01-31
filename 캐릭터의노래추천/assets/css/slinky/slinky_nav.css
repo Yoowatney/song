@@ -1,0 +1,31 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #02343f;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.3;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+audio {
+  width: 80px;
+  height: 25px;
+}
+li {
+  width: 60px;
+  text-align: center;
+  font-weight: 600;
+}
+li a {
+  text-decoration: none;
+  color: #f0edcc;
+  font-size: 18px;
+}
